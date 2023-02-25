@@ -91,7 +91,7 @@ class SummaryProcessor:
         sentences: List[str],
         ratio: float = 0.2,
         algorithm: str = 'kmeans',
-        use_first: bool = True,
+        use_first: bool = False,
         num_sentences: int = 3,
     ) -> Tuple[List[str], np.ndarray]:
         """
